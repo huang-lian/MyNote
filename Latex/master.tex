@@ -1,0 +1,41 @@
+\documentclass{book}
+
+% 添加书签
+\usepackage{hyperref}
+
+\usepackage{fontspec}
+\setmainfont[Mapping=tex-text]{Times New Roman}
+\setsansfont[Mapping=tex-text]{Tahoma}
+\setmonofont{Courier New}
+
+\usepackage[CJKchecksingle,CJKnumber]{xeCJK}
+\setCJKmainfont[BoldFont={SimHei},
+ItalicFont={KaiTi}]{Microsoft YaHei}
+\setCJKsansfont{SimHei}
+\setCJKmonofont{KaiTi}
+\punctstyle{hangmobanjiao}
+
+\usepackage{amsmath}
+\newtheorem{definition}{定义}[section]
+\newtheorem{theorem}{定理}[section]
+\newtheorem{lemma}[theorem]{引理}
+\newtheorem{corollary}[theorem]{推论}
+
+
+\begin{document}
+\title{LatexNotes}
+\author{huanglian945@foxmail}
+\date{\today}
+\maketitle
+
+\tableofcontents
+\setcounter{tocdepth}{3}
+
+% 正文
+\chapter*{}<++>
+\chapter*{}<++>
+\include{ch3}
+
+
+\end{document}
+

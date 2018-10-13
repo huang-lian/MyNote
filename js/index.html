@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+	<title> js学习</title>
+    </head>
+    <body>
+	<h1>标题1</h1>
+	<p id="demo">段落输出实例</p>
+    <script>
+	document.getElementById("demo").innerHTML="第一段js";
+    </script>
+    <script>
+	document.write("<p>第二段js</p>");
+<!--如果在网页加载完成后执行document.write,整个页面会被覆盖-->
+    </script>
+    <button onclick="fun()">click</button>
+    <script>
+	function fun()
+{
+	document.write("<p>第二段js</p>");
+}
+    </script>
+    </body>
+</html>
