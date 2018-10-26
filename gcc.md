@@ -1,4 +1,4 @@
-gcc 常用选项
+gcc --help
 
 Usage:
 
