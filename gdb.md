@@ -46,6 +46,7 @@ p|print <EXP>
 	Print value of expression EXP.
 x/FMT <ADDRESS>
 	Examine memory: x/FMT ADDRESS.
+
 finish
 	Execute until selected stack frame returns.
 continue [N]
