@@ -1,25 +1,32 @@
-# C
+# Latex
 ## Introduction
 ### Compliers
-gcc  
 Command  
-`gcc example.c -o example.out`
+`xelatex example.tex`
 
 ### Hello World
 
 ```
-/* hello_world.c */
-#include<stdio.h>
-int main(void) {
-    printf("Hello World");
-    return 0;
-}
+\documentclass{article}
+\begin{document}
+Hello World.
+\end{document}
 ```
 
 ### Comment
-```c
-// line comment
-/* block comment */
+*line-comment*
+```latex
+% line comment
+
+```
+
+*block-comment*
+```latex
+\usepackage{verbatim}
+
+\begin{comment}
+block comment
+\end{comment}
 ```
 
 ***

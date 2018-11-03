@@ -20,16 +20,14 @@ Java 编程语言和 Java 平台
 
 
 ### Compliers
-Compile the Source File into a.class file
 
-javac  
+1. Compile the Source File into a.class file  
+ javac  
 command  
 ```
 javac example.java
 ```
-
-Run the Program
-
+2. Run the Program  
 java  
 command  
 ```
@@ -146,3 +144,4 @@ Source Code Comments <https://docs.oracle.com/javase/tutorial/getStarted/applica
 ***
 
 ## Library
+// TODO

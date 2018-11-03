@@ -56,6 +56,9 @@ bt|backtrace
 	Print backtrace of all stack frames, or innermost COUNT frames.
 
 
+record
+reverse-
+
 ```
 Others:
 - use regs with`$reg_name`

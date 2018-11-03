@@ -1,26 +1,15 @@
-# C
+# HTML
 ## Introduction
 ### Compliers
-gcc  
 Command  
-`gcc example.c -o example.out`
+`browse example.html`
 
 ### Hello World
 
 ```
-/* hello_world.c */
-#include<stdio.h>
-int main(void) {
-    printf("Hello World");
-    return 0;
-}
 ```
 
 ### Comment
-```c
-// line comment
-/* block comment */
-```
 
 ***
 
